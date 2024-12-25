@@ -1,0 +1,310 @@
+{
+    "restaurant": {
+        "name": "Ordinary & Happy"
+    },
+
+    "Menu": {
+        "STARTERS": [
+            {
+                "name": "Pancakes",
+                "description": "Fluffy and golden brown pancakes made with fresh buttermilk and topped with pure maple syrup"
+            },
+        
+            {
+                "name": "Migas",
+                "description": "A traditional Mexican dish made with crispy tortilla chips, scrambled eggs, and spicy chorizo sausage"
+            },
+        
+            {
+                "name": "Waffles",
+                "description": "Light and crispy waffles made with a special blend of flour and topped with fresh fruit and whipped cream"
+            },
+      
+            {
+                "name": "Croque Monsieur",
+                "description": "A French-inspired sandwich made with toasted bread, ham, and melted Swiss cheese, served with a side of fruit"
+            },
+      
+            {
+                "name": "Fluffy Scrambled Eggs Breakfast Hash",
+                "description": "A hearty breakfast dish made with scrambled eggs, crispy bacon, and shredded potatoes, served with a side of toast"
+            },
+      
+            {
+                "name": "Classic French Toast Omelette Sandwich",
+                "description": "A decadent sandwich made with thick slices of French toast, filled with a fluffy omelette and topped with powdered sugar"
+            },
+      
+            {
+                "name": "Sausage Crescent Rolls",
+                "description": "Flaky and buttery crescent rolls filled with spicy sausage and served with a side of maple syrup"
+            },
+      
+            {
+                "name": "French Toast Roll-Ups",
+                "description": "Thin slices of French toast rolled up with cream cheese and fruit, served with a side of syrup"
+            },
+      
+            {
+                "name": "Almond Croissants",
+                "description": "Flaky and buttery croissants filled with a sweet almond cream and topped with sliced almonds"
+            },
+      
+            {
+                "name": "Cheesy Breakfast Casserole Taco Bar",
+                "description": "A build-your-own taco bar featuring a cheesy breakfast casserole, crispy tortillas, and a variety of toppings"
+            },
+      
+            {
+                "name": "Pancake Brunch Board",
+                "description": "A selection of pancakes, waffles, and French toast, served with a variety of toppings and syrups"
+            },
+      
+            {
+                "name": "Ham and Egg Brunch Cups Stovetop or Baked Frittata Quichelettes",
+                "description": "Individual cups filled with a ham and egg frittata, served with a side of toast and fruit"
+            },
+      
+            {
+                "name": "Bagel Bar",
+                "description": "A selection of toasted bagels, cream cheese, and smoked salmon, served with a side of capers and red onion"  
+            },
+    
+            {
+                "name": "Pancake Skewers",  
+                "description": "Bite-sized pancakes skewered with fresh fruit and served with a side of syrup"
+            },
+      
+            {
+                "name": "Frittata Egg Muffins",
+                "description": "Individual egg muffins filled with a fluffy frittata, served with a side of toast and fruit"      
+            }
+        ],
+
+        "VEGETARIAN": [
+            {
+                "name": "Veggie Black Bean Enchiladas Burrata Breakfast Board Spicy Baked Eggs",
+                "description": "A flavorful and spicy breakfast dish made with veggie black bean enchiladas, burrata cheese, and baked eggs, served with a side of toast"
+            },
+            
+            {
+                "name": "Puff Pastry Asparagus Tart Broccoli and Cheese Quiche Mushrooms on Toast",
+                "description": "A selection of vegetarian delights, including a puff pastry asparagus tart, broccoli and cheese quiche, and sautéed mushrooms on toast"
+            },
+      
+            {      
+                "name": "Tater Tot Casserole",      
+                "description": "A comforting and crispy casserole made with tater tots, cheese, and vegetables, served with a side of toast"      
+            },
+      
+            {      
+                "name": "Baked Eggs Florentine Rainbow Fruit Salad Tostadas",      
+                "description": "A colorful and flavorful breakfast dish made with baked eggs, spinach, and rainbow fruit salad, served with crispy tostadas"      
+            },
+      
+            {      
+                "name": "Sweet Potato & Black Bean Quinoa Bake",      
+                "description": "A hearty and nutritious bake made with sweet potatoes, black beans, and quinoa, served with a side of toast"      
+            },
+    
+            {          
+                "name": "Blended Baked Oatmeal",          
+                "description": "A creamy and comforting oatmeal dish made with blended oats, nuts, and fruit, served with a side of milk"      
+            },    
+            
+            {    
+                "name": "Carrot Lox Bagels",    
+                "description": "A creative and delicious twist on traditional bagels, made with carrot lox and cream cheese, served with a side of capers"   
+            }    
+        ],
+    
+        "EGG-DISHES": [
+            {
+                "name": "Eggs Benedict",
+                "description": "Poached eggs on toasted English muffins with ham and hollandaise sauce"
+            },
+        
+            {
+                "name": "Sunny Side Up Eggs",
+                "description": "Eggs cooked sunny side up with a runny yolk"
+            },
+    
+            {
+                "name": "Deviled Egg Toast",
+                "description": " Toasted bread topped with deviled eggs and garnished with paprika"
+            },
+    
+            {
+                "name": "Mushroom Omelet with Chives",
+                "description": "Fluffy omelet filled with sautéed mushrooms and chives"
+            },
+    
+            {
+                "name": "Simple Poached Eggs",
+                "description": "Poached eggs served with a side of toast"
+            },
+    
+            {
+                "name": "Soft & Creamy Scrambled Eggs",
+                "description": "Scrambled eggs cooked to a soft and creamy texture"
+            },
+    
+            {
+                "name": "Salsa Verde Eggs",
+                "description": "Eggs topped with salsa verde and served with tortillas"
+            },
+    
+            {
+                "name": "Breakfast Egg Tacos",
+                "description": "Tacos filled with scrambled eggs, cheese, and salsa"
+            },
+    
+            {
+                "name": "Egg Muffins",
+                "description": "Muffin-sized omelets filled with cheese and vegetables"
+            },
+    
+            {
+                "name": "Fried Egg Sandwich",
+                "description": "Fried egg served on toasted bread with cheese and bacon"
+            }
+        ],
+
+        "SWEET": [
+            {
+                "name": "Perfect Buttermilk Pancakes",
+                "description": "Fluffy and golden brown pancakes made with fresh buttermilk and topped with pure maple syrup"    
+            },
+
+            {
+                "name": "Monkey Bread",
+                "description": "A sweet and sticky bread made with pieces of dough coated in cinnamon sugar, served with a side of caramel sauce"
+            },
+
+            {
+                "name": "Cinnamon Rolls",
+                "description": "Soft and gooey cinnamon rolls made with a sweet dough and topped with a crumbly cinnamon sugar mixture"
+            },
+
+            {
+                "name": "Brioche French Toast with Passion Fruit",
+                "description": "Thick slices of brioche bread dipped in a rich egg batter and grilled to perfection, served with a side of passion fruit sauce"
+            },
+
+            {
+                "name": "Cinnamon Crumb Coffee Cake",
+                "description": "A moist and flavorful coffee cake made with a sweet dough and topped with a crumbly cinnamon sugar mixture"
+            },
+
+            {
+                "name": "Donut Kabobs",
+                "description": "Bite-sized donuts skewered with fresh fruit and served with a side of chocolate dipping sauce"
+            },
+
+            {
+                "name": "Dutch Baby Pancake",
+                "description": "A large and fluffy pancake made with a sweet batter and served with a side of fresh fruit and powdered sugar"
+            },
+
+            {
+                "name": "Strawberry Crepes",
+                "description": "Thin and delicate crepes filled with a sweet strawberry filling and topped with whipped cream"
+            },
+
+            {
+                "name": "Blueberry Muffin Smoothie Bowl",
+                "description": "A thick and creamy smoothie made with blueberries and topped with granola and fresh fruit"
+            },
+
+            {
+                "name": "Strawberries and Cream Scones",
+                "description": "Freshly baked scones made with a sweet dough and topped with a dollop of whipped cream and fresh strawberries"
+            }
+        ],
+
+        "GOURMET": [
+
+            {
+                "name": "Maine Lobster Omelette",
+                "description": "A decadent omelette made with fresh Maine lobster, cream cheese, and chives, served with a side of toasted English muffins"
+            },
+
+            {
+                "name": "Tea-Smoked Salmon & Yuzu Hollandaise English Muffin",
+                "description": "A luxurious English muffin topped with tea-smoked salmon, yuzu hollandaise sauce, and a sprinkle of capers"
+            },
+
+
+            {
+                "name": "Linseed & Coconut Pudding with Smoked Syrup",
+                "description": "A creamy and nutritious pudding made with linseed and coconut milk, topped with a drizzle of smoked syrup and fresh fruit"
+            },
+
+            {
+                "name": "Benne Biscuits with Sausage Gravy",
+                "description": "Flaky and buttery biscuits made with benne seeds, served with a side of spicy sausage gravy"
+            },
+
+            {
+                "name": "Espresso Waffles with Mocha Drizzle",
+                "description": "Crispy and flavorful waffles made with espresso and topped with a rich mocha drizzle and whipped cream"
+            }
+        ],
+
+        "GLOBALLY-INSPIRED": [
+            {
+                "name": "Chilaquiles",
+                "description": "A traditional Mexican dish made with fried tortilla chips, salsa, and cheese, served with a side of sour cream and avocado"
+            },
+
+            {
+                "name": "Huevos Rancheros",
+                "description": "A classic Mexican breakfast dish made with fried eggs, tortillas, and salsa, served with a side of refried beans and sour cream"
+            },
+
+
+            {
+                "name": "Steamed Bao Buns",
+                "description": "Soft and fluffy bao buns filled with a variety of sweet and savory ingredients, served with a side of soy sauce and pickled ginger"
+            },
+
+
+            {
+                "name": "Acai Bowl",
+                "description": "A nutritious and delicious bowl made with acai berries, granola, and fresh fruit, topped with a drizzle of honey and coconut flakes"
+            },
+
+
+            {
+                "name": "Menemen",
+                "description": "A traditional Turkish dish made with scrambled eggs, tomatoes, and spices, served with a side of crusty bread and olives"
+            },
+
+            {
+                "name": "Full English Breakfast",
+                "description": "A hearty and classic English breakfast made with bacon, eggs, sausages, and toast, served with a side of baked beans and grilled tomatoes"
+            },
+
+            {
+                "name": "Persian Frittata",
+                "description": "A flavorful and aromatic frittata made with eggs, herbs, and spices, served with a side of toasted bread and fresh fruit"
+            },
+
+            {
+                "name": "Gamjajeon (Korean Potato Pancakes)",
+                "description": "Crispy and savory pancakes made with Korean potatoes, onions, and garlic, served with a side of soy sauce and kimchi"
+            },
+
+
+            {
+                "name": "Fluffy Japanese Pancakes",
+                "description": "Light and fluffy pancakes made with Japanese flour and topped with a variety of sweet and savory ingredients, served with a side of green tea and pickled ginger"
+            },
+
+            {
+                "name": "Necci (Tuscan Chestnut Flour Pancakes)",
+                "description": "Traditional Tuscan pancakes made with chestnut flour and topped with a variety of sweet and savory ingredients, served with a side of honey and ricotta cheese"
+            }
+        ]
+    }
+}
