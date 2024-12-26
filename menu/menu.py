@@ -9,14 +9,11 @@ my_db = mysql.connector.connect(
 
 cursor = my_db.cursor()
 
-def create_table(str):
-    return cursor.execute(f"CREATE TABLE {str}")
-
-def fetch_data(str):
-    return cursor.fetchall()
-
-def delete_table(table):
-    return cursor.execute(f"DROP TABLE {table}")
-
-create_table("This")
-fetch_data("This")
+def create_table_Menu():
+    return cursor.execute("""CREATE TABLE IF NOT EXISTS Menu(
+                          menu_item_id INT AUTO_INCREMENT PRIMARY KEY,
+                          Name VARCHAR(255), 
+                          Description VARCHAR(255),
+                          Price Currency
+                          )""")
+    #return cursor.execute(f"CREATE TABLE {str} {final_column_tuple};")

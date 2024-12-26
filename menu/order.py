@@ -1,6 +1,7 @@
 import json
 from pyfiglet import Figlet
 import inquirer
+import datetime
 
 result = {}
 dish_list = []
@@ -136,5 +137,14 @@ def order_report(menu_categories= menu_category(), menu_items= menu_order_option
           info4 = inquirer.prompt(confirm_question)
           result_update(info4)
 
+     order_date = datetime.date.today()
+     order_time = datetime.datetime.now().time()
+
+     result.update({"order_date": str(order_date)})
+     result.update({"order_time": str(order_time)})
+
+     with open("menu/order.json", "a", encoding="utf-8") as f:
+          json.dump(result, f, indent=4)
+     
      return result
 
