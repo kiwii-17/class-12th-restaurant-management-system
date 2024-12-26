@@ -82,6 +82,7 @@ def menu_order_options(menu_categories= menu_category()):
 
 
 def order_report(menu_categories= menu_category(), menu_items= menu_order_options()):
+     session_id = 1
      order_id = 1
 
      question1 = [
@@ -173,10 +174,7 @@ def order_report(menu_categories= menu_category(), menu_items= menu_order_option
      total_bill = fetch_prices(result)
      result.update({"Total Bill": total_bill})
 
-     with open("menu/order.json", "a", encoding="utf-8") as f:
-          json.dump(result, f, indent=4)
-
-     print("\nYour order has been placed.")
+     print("\nYour order has been placed.\n")
      
      return result
 
