@@ -4,8 +4,33 @@ import inquirer
 import datetime
 
 result = {}
+report = {}
 dish_list = []
 
+def fetch_prices(result):
+     total_bill = 0.0
+     with open("menu/menu.json", "r") as f:
+          menu = json.load(f)
+     
+     for heading in menu:
+
+          for item in menu[heading]:
+
+               if menu[heading][item] == "Ordinary & Happy":
+                    continue
+
+               else:
+                    for dishes in menu[heading][item]:
+                    
+                         for order in result.values():
+                              if order == dishes['name']:
+                                   total_bill += dishes['Price']
+                              else:
+                                   continue
+
+
+     return total_bill
+                    
 
 def heading_display(text):
      return Figlet(font='larry3d').renderText(text)
@@ -45,7 +70,7 @@ def menu_order_options(menu_categories= menu_category()):
                     
                else:
                     for dishes in menu[heading][item]:
-                         dish_list.append(f"{dishes['name']}")
+                         dish_list.append(f"{dishes['name']} - ${dishes['Price']}")
 
                     menu_items.update({menu_categories[add_on]: dish_list})
                     add_on += 1
@@ -90,6 +115,7 @@ def order_report(menu_categories= menu_category(), menu_items= menu_order_option
      ]
 
      info3 = inquirer.prompt(question3)
+     info3[f"order{order_id}"] = info3[f"order{order_id}"].split(" - ")[0]
      result_update(info3)
 
      confirm_question = [
@@ -125,6 +151,7 @@ def order_report(menu_categories= menu_category(), menu_items= menu_order_option
           ]
 
           info3 = inquirer.prompt(question3)
+          info3[f"order{order_id}"] = info3[f"order{order_id}"].split(" - ")[0]
           result_update(info3)
 
           confirm_question = [
@@ -143,8 +170,13 @@ def order_report(menu_categories= menu_category(), menu_items= menu_order_option
      result.update({"order_date": str(order_date)})
      result.update({"order_time": str(order_time)})
 
+     total_bill = fetch_prices(result)
+     result.update({"Total Bill": total_bill})
+
      with open("menu/order.json", "a", encoding="utf-8") as f:
           json.dump(result, f, indent=4)
+
+     print("\nYour order has been placed.")
      
      return result
 

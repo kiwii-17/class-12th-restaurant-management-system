@@ -1,9 +1,10 @@
-from menu.order import order_report, menu_category, menu_order_options
+from menu.order import order_report, menu_category, menu_order_options, fetch_prices
 import mysql.connector
 from cryptography.fernet import Fernet
 import datetime
 
 result = order_report()
+
 
 
 my_db = mysql.connector.connect(
